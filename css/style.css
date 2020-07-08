@@ -31,7 +31,7 @@ button {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 30%);
 }
 .action:hover {
-  transition: .5s all;
+  
   background-color: hsl(322, 100%, 64%);
   margin-top: 49px;
   margin-bottom: 51px;
@@ -54,11 +54,11 @@ header button {
   width: 150px;
   font-size: 20px;
   /* font-weight: 500; */
-  box-shadow: 0px 0px 10px 0px hsl(322, 100%, 80%);
+  box-shadow: 0px 0px 2px 0px hsl(322, 100%, 80%);
 }
 header button:hover {
   transition: .5s all;
-  box-shadow: 0px 0px 30px 0px hsl(322, 100%, 80%);
+  box-shadow: 0px 0px 5px 0px hsl(322, 100%, 80%);
   
   
 }
@@ -67,7 +67,7 @@ header img {
 }
 /* main-section */
 .main-sction {
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
 }
 .main-sction .container {
@@ -114,9 +114,7 @@ header img {
 .blue {
   background-color: hsl(207, 100%, 98%);
 }
-.sec {
-  padding: 70px 0;
-}
+
 .sec .container {
   display: flex;
   align-items: center;
@@ -175,7 +173,7 @@ header img {
 footer {
   color: #fff;
   background-color: hsl(192, 100%, 9%);
-  padding: 100px 0;
+  padding: 60px 0 ;
 }
 footer .container {
   display: flex;
@@ -267,14 +265,17 @@ footer .news-form button:hover {
 
 @media only screen and (max-width: 768px) {
   .bg-1{ 
+    height: 100px;
     background: url(../images/bg-section-bottom-mobile-1.svg) no-repeat;
   background-size: cover;
   }
-  .bg-2{ 
+  .bg-2{
+    height: 100px; 
     background: url(../images/bg-section-bottom-mobile-2.svg) no-repeat;
   background-size: cover;
   }
   .bg-3{ 
+    height: 100px;
     background: url(../images/bg-footer-top-mobile.svg) no-repeat;
   background-size: cover;
   }
@@ -283,10 +284,23 @@ footer .news-form button:hover {
   .main-sction h2 {
     font-size: 40px;
   }
+  .main-sction .counter {
+    margin: 20px auto;
+  }
+  .main-sction .counter h2{
+    font-size: 3.2rem;
+  }
+  .main-sction .counter img {
+    width: 25px;
+    height: 25px;
+  }
+  .main-sction .counter p{
+    font-size: 13px;
+  }
 .sec .item {
   width: 100%;
   text-align: center;
-  padding: 60px 0;
+  padding: 25px 0;
 }
 .sec p{
   margin: auto;
