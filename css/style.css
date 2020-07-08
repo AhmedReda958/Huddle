@@ -114,7 +114,9 @@ header img {
 .blue {
   background-color: hsl(207, 100%, 98%);
 }
-
+section:last-of-type {
+  padding: 100px 0;
+}
 .sec .container {
   display: flex;
   align-items: center;
